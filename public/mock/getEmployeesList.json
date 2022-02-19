@@ -1,0 +1,21 @@
+{
+    "result": true,
+    "response": {
+        "employees": [{
+                "id": 1,
+                "name": "amira",
+                "state": "Added"
+            },
+            {
+                "id": 2,
+                "name": "amira",
+                "state": "Added"
+            },
+            {
+                "id": 3,
+                "name": "amira",
+                "state": "Added"
+            }
+        ]
+    }
+}

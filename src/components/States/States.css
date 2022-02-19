@@ -1,0 +1,41 @@
+
+.state {
+  /* width: 300px; */
+  height: 113px;
+  position: relative;
+  border-top: 1px double gainsboro;
+  border-bottom: 1px double gainsboro;
+  /* border-right: 1px double gainsboro; */
+  background-color: transparent;
+  
+  padding: 0px;
+  display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.active{
+  background-color: rgb(89, 0, 255) !important;
+
+}
+.state .arrowleft {
+  position: absolute;
+  right: 76%;
+  top: 16px;
+  width: 79px;
+  height: 80px;
+  /* background-color: transparent; */
+   padding: 0px;
+  display: flex;;
+  transform: rotate(45deg);
+  border-top: 1px double gainsboro;
+  border-right:  1px double gainsboro;
+}
+.activeArrow{
+  background-color:  #ffff;
+
+}
+.state  > span{
+z-index: 10;
+margin-left: 53%;
+font-size: 20px;
+}
